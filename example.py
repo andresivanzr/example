@@ -1,13 +1,15 @@
 
 def programa(opcion):
-    if (opcion == '1'):
+    if opcion == '1':
         print(cadena[0:2])
-    elif (opcion == '2'):
+    elif opcion == '2':
        print(cadena[0:3])
-    elif (opcion == '3'):
+    elif opcion == '3':
        print(cadena[-2:])
-    elif (opcion == '4'):
-        print(cadena[-1:])
+    elif opcion == '4':
+       print(cadena[-1:])
+    else:
+        print('error')
 
 
 
